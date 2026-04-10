@@ -21,17 +21,8 @@ public class Main {
         // correo[0] = "juan.perez@example.com";
         for(int i = 0; i < cantidadEstudiante; i++) {
 				  
-		
-
             // ---------------- TIPO DOCUMENTO ----------------
-			  
-																					   
-																																												
-						  
-																																								 
-																				 
-																										   
-			  
+																						 
             System.out.print("\nIngrese el tipo de documento del estudiante " + (i+1) + ": ");
             for(int j = 0; j < tipoDcumentoPermitodo.length; j++){
                 System.out.print("("+(j+1)+"=>" + tipoDcumentoPermitodo[j]+") ");
@@ -60,7 +51,6 @@ public class Main {
 
             scanner.nextLine(); // limpiar buffer
 			
-
             // ---------------- DOCUMENTO VALIDADO ----------------
             boolean valido = false;
 
